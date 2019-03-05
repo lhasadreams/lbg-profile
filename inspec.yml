@@ -4,8 +4,8 @@ maintainer: Adrian Daniels
 copyright: The Authors
 copyright_email: adrian@chef.io
 license: Apache-2.0
-summary: An InSpec Compliance Profile for LBG
-version: 0.3.0
+summary: An InSpec Compliance Profile for UBS
+version: 0.3.1
 supports:
   - platform-family: debian
 depends:
