@@ -1,0 +1,16 @@
+name: lbg-profile
+title: LBG Profile
+maintainer: Adrian Daniels
+copyright: The Authors
+copyright_email: adrian@chef.io
+license: Apache-2.0
+summary: An InSpec Compliance Profile for LBG
+version: 0.1.0
+supports:
+  - platform-family: debian
+  - platform-family: darwin
+depends:
+- name: mac
+  compliance: delivery/cis-appleosx10.11-level1
+- name: ubuntu
+  compliance: delivery/cis-ubuntu16.04lts-level1-server

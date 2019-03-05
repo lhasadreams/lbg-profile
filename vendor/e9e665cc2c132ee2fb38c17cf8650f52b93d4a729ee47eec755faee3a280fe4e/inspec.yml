@@ -1,0 +1,11 @@
+---
+name: cis-ubuntu16.04lts-level1-server
+title: CIS Ubuntu Linux 16.04 LTS Benchmark Level 1 - Server
+summary: CIS Ubuntu Linux 16.04 LTS Benchmark Level 1 - Server translated from SCAP
+version: 1.0.0-5
+maintainer: Chef Software, Inc.
+copyright: Chef Software, Inc.
+copyright_email: support@chef.io
+license: Proprietary, All rights reserved
+supports:
+- platform-name: ubuntu
