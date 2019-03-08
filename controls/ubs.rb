@@ -1,4 +1,4 @@
-control 'UBS-1' do   
+control 'UBS-1' do
   impact 1.0
   title 'Check that the "UBS" file exits'
   desc 'A critical security file must always be installed on every machine'
@@ -16,4 +16,3 @@ require_controls 'ubuntu' do
   control 'xccdf_org.cisecurity.benchmarks_rule_5.2.9_Ensure_SSH_PermitEmptyPasswords_is_disabled'
   control 'xccdf_org.cisecurity.benchmarks_rule_6.2.20_Ensure_shadow_group_is_empty'
 end
-
